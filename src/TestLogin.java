@@ -20,5 +20,6 @@ public class TestLogin {
 	(driver.findElement(By.xpath("//*[@id='email']"))).sendKeys("usrivastav@care.com");
 	(driver.findElement(By.xpath("//*[@id='pass']"))).sendKeys("letmein1");
 	(driver.findElement(By.xpath("html/body/div[1]/div[1]/div/div/div/div/div/div/form/table/tbody/tr[2]/td[3]/label/input"))).click();
+	System.out.println("just for github");
 }
 }
